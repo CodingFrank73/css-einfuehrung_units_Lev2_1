@@ -1,0 +1,36 @@
+ul{
+    padding-inline-start: 1.2em;
+    list-style: none;
+}
+
+li{
+    font-size: .8em;
+    line-height: 1.5em;
+}
+
+section{
+    border: .2rem solid black;
+    font-size: 1.2rem;
+}
+
+section ul li:nth-of-type(1) ul li:nth-of-type(1) ul li::marker{
+    content: "🐕‍🦺";
+}
+
+section ul li:nth-of-type(1) ul li:nth-of-type(2) ul li::marker{
+    content: "🐕";
+}
+
+section ul li:nth-of-type(2) ul li ul li::marker{
+    content: "🦜";
+}
+
+section ul li:nth-of-type(3) ul li:nth-of-type(1) ul li::marker{
+    content: "🐍";
+}
+
+section ul li:nth-of-type(3) ul li:nth-of-type(2) ul li::marker{
+    content: "🦎";
+}
+
+
